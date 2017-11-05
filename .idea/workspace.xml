@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf9b6c6-c4c3-4182-8a70-64df77cb21ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/PNOz.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/Prob1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/mlp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab2/__init__.py" afterPath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab2/Prob4.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MachineLearning/src/Labs/__init__.py" afterPath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/PNOz.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MachineLearning/.idea/workspace.xml" afterPath="$PROJECT_DIR$/src/MachineLearning/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/.ipynb_checkpoints/prob1-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/PNOz.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/PNOz.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/Prob1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/mlp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/prob1.ipynb" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,6 +101,40 @@
               <item name="cs582-2017-11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs582-2017-11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs582-2017-11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs582-2017-11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs582-2017-11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs582-2017-11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs582-2017-11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs582-2017-11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs582-2017-11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="Prob1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,12 +303,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509756105013</updated>
-      <workItem from="1509756106664" duration="6249000" />
+      <workItem from="1509756106664" duration="6679000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6249000" />
+    <option name="totallyTimeSpent" value="6679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -340,14 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/Prob1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/mlp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1805">
@@ -360,9 +386,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="65" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="e#426#444#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -370,6 +394,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="2854" column="64" lean-forward="false" selection-start-line="2854" selection-start-column="64" selection-end-line="2854" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MachineLearning/src/Labs/Lab3/Prob1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
