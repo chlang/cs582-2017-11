@@ -14,7 +14,7 @@ import pylab as pl
 import numpy as np
 
 PNoz = np.loadtxt('PNOz.dat')
-pl.ion()
+# pl.ion()
 pl.plot(np.arange(np.shape(PNoz)[0]),PNoz[:,2],'.')
 pl.xlabel('Time (Days)')
 pl.ylabel('Ozone (Dobson units)')
@@ -42,7 +42,7 @@ valid = inputs[1:-400:2,:]
 validtargets = targets[1:-400:2]
 
 # Randomly order the data
-change = range(np.shape(inputs)[0])
+change = list(range(np.shape(inputs)[0]))
 np.random.shuffle(change)
 inputs = inputs[change,:]
 targets = targets[change,:]
@@ -59,5 +59,5 @@ pl.figure()
 pl.plot(np.arange(np.shape(test)[0]),testout,'.')
 pl.plot(np.arange(np.shape(test)[0]),testtargets,'x')
 pl.legend(('Predictions','Targets'))
-print 0.5*np.sum((testtargets-testout)**2)
+print (0.5*np.sum((testtargets-testout)**2))
 pl.show()
