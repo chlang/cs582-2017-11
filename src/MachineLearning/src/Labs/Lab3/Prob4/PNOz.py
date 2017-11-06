@@ -45,10 +45,11 @@ test = np.concatenate((test,-np.ones((np.shape(test)[0],1))),axis=1)
 
 print("# Train recurrent neural network")
 import rnn
-net = rnn.rnn(train,traintargets,3,outtype='linear')
-net.earlystopping(train,traintargets,valid,validtargets,0.25)
+print(np.shape(train[:,2:3]))
+net = rnn.rnn(train[:,2:3],traintargets,3,outtype='linear')
+net.earlystopping(train[:,2:3],traintargets,valid[:,2:3],validtargets,0.25)
 
-testout = net.fwd(test)
+testout = net.fwd(test[:,1:3])
 
 pl.figure()
 pl.title("Recurrent Neural Network")

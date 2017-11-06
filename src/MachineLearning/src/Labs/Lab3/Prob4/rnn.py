@@ -91,13 +91,13 @@ class rnn:
         outputs = np.zeros((ndata, self.nout))
 
         for i in range(ndata):
-            hs = np.dot(inputs[i], self.weights1i)
+            hs = np.dot(inputs[i:(i+1),:], self.weights1i)
             if i > 0:
-                hs += np.dot(outputs[i-1], self.weights1o)
+                hs += np.dot(outputs[i-1,:], self.weights1o)
             hs = 1.0/(1.0+np.exp(-self.beta * hs))
             hs = np.reshape(hs, (1, self.nhidden))
-            self.hidden[i] = np.concatenate((hs, -np.ones((1, 1))), axis=1)
-            outputs[i] = np.dot(self.hidden[i], self.weights2)
+            self.hidden[i, :] = np.concatenate((hs, -np.ones((1, 1))), axis=1)
+            outputs[i, :] = np.dot(self.hidden[i, :], self.weights2)
 
         # Different types of output neurons
         if self.outtype == 'linear':
