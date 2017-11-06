@@ -1,0 +1,19 @@
+a) 
+
+1 MLP with time-series prediction using the daily power demand data for the last 5 years to predict power consumption in the further
+
+2 Possible parameters:
+- year of the data
+- month of the data
+- day of the data
+- time of the data
+- weather condition (temperature)
+
+3 temperature
+
+
+b) daytime and nighttime temperatures would be added as a part of the features
+
+
+
+c) Basically we can get electricity consumption prediction if we know the weather condition (temperature), but the problem is that in some seasons the temperature changing sharply contrary to the forecast weather
