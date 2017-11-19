@@ -1,3 +1,20 @@
+NAME: AmesHousing.txt
+TYPE: Population
+SIZE: 2930 observations, 82 variables
+ARTICLE TITLE: Ames Iowa: Alternative to the Boston Housing Data Set
+
+DESCRIPTIVE ABSTRACT: Data set contains information from the Ames Assessor’s Office used in computing assessed values for individual residential properties sold in Ames, IA from 2006 to 2010.
+
+SOURCES: 
+Ames, Iowa Assessor’s Office 
+
+VARIABLE DESCRIPTIONS:
+Tab characters are used to separate variables in the data file. The data has 82 columns which include 23 nominal, 23 ordinal, 14 discrete, and 20 continuous variables (and 2 additional observation identifiers).
+
+Order (Discrete): Observation number
+
+PID (Nominal): Parcel identification number  - can be used with city web site for parcel review. 
+
 MSSubClass: Identifies the type of dwelling involved in the sale.	
 
         20	1-STORY 1946 & NEWER ALL STYLES
